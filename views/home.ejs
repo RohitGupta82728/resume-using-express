@@ -1,0 +1,35 @@
+<%- include('./partials/header.ejs') %>
+
+<div class="container-fluid bg-dark">
+    <div class="row">
+        <div class="col-sm-2 ">
+            <%- include('./partials/sidebar.ejs',{page_name:'Home'}) %>
+        </div>
+        <div class="col-sm-10">
+            <div class="mt-5">
+                <div class="text-center">
+                    <img src="/images/my.jpg" alt="" class="img-thumbnail" width="250px" height="150px">
+                </div>
+                <div class="mt-5 text-white mx=5 text-justify">
+                    <h1 class="fw-bold st-font">Hello,</h1>
+                    <div class="px-4" style="line-height: 2rem;">
+                        <p style="text-indent: 100px;">I am <b class="text-warning">Rohit Gupta</b> Internee at AI-Thinkers of Full-Stack 
+                        Development Programme</p>
+                        <p>Since earning my master's degree in M.C.A from I.E.T. College DR.B.A.University,I have done Android Development,
+                            D.B.M.S., System-Design,Java course from <b class="text-warning">Coding-Ninjas</b>
+                        </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quasi cum, officia similique hic vitae aspernatur in obcaecati quod id, culpa aliquid quibusdam nihil odio suscipit error repudiandae ipsam perferendis?</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="/contact" class="btn btn-outline-warning mx-5 my-3">Hire Me</a>
+                    <a href="/contact" class="btn btn-outline-info">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <h1 class="st-font">Home Page</h1>
+
+<%- include('./partials/footer.ejs') %>
